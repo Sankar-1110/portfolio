@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header>
+    <div class="nav-content">
+      <a href="#home"><img src="./images/images.png" /></a>
+
+      <ul class="nav-content-list">
+        <li class=" nav-button"><a href="#home">Home</a> </li>
+        <li class="nav-button"><a href="#about">Skills</a> </li>
+        <li class="nav-button"><a href="#projects1">Projects</a> </li>
+      </ul>
+      <div class="nav-contact-out">
+        <div class="nav-contact"><a href="#contact">Contact</a><i class="fa-solid fa-arrow-right fa-rotate-by"
+            style="--fa-rotate-angle: 315deg;"></i> </div>
+        <div class="menu-icon" onclick="toggleSidebar()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+      <!-- Close Icon (Visible only on small screens) -->
+      <div class="close-icon" onclick="toggleSidebar()">
+        <i class="fa-solid fa-times"></i>
+      </div>
+      <a href="#home " onclick="toggleSidebar()">Home</a>
+      <a href="#about" onclick="toggleSidebar()">skills</a>
+      <a href="#projects1" onclick="toggleSidebar()"> Projects</a>
+
+    </div>
+  </header>
+  <!-- sideheader -->
+  <div class="sideheader">
+    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=saisankar1110@gmail.com"><i
+        class="fa-solid fa-m"></i></a>
+    <a href="https://github.com/Sankar-1110"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/sai-sankar-n-2b620225a/"> <i class='bx bxl-linkedin-square'></i></a>
+    <a href="https://www.instagram.com/sai_sankar_110_/?next=%2F"><i class='bx bxl-instagram-alt'></i></a>
+    <div class="vertical-line"></div>
+  </div>
+  <!-- home page -->
+  <section class="home trans" id='home'>
+    <div class="home-content left-trans">
+      <h4>Hi There! </h4>
+      <div>
+        <span class="name-text"></span>
+      </div>
+      <div class="text-animate">
+        <p>I'm a <span class="text"></span></p>
+      </div>
+
+      <div class="connect-btn">
+        <a href="https://drive.google.com/file/d/1oUcEo9NF6c0yFR4rc4qblNqlqVXWu8dg/view?usp=sharing">
+
+          <span></span>
+          <span></span>
+          view cv
+          <span></span>
+          <span></span>
+        </a>
+        <a href="#about">
+
+          <span></span>
+          <span></span>
+          Know more
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+      <div class="connect-icons">
+        <span>
+          <a href="https://www.linkedin.com/in/sai-sankar-n-2b620225a/"><i
+              class='bx bxl-linkedin-square'></i></a></span>
+        <span> <i class='bx bxl-instagram-alt'></i></span>
+        <span><i class='bx bxl-whatsapp-square'></i></span>
+        <span><i class='bx bxl-twitter'></i></span>
+      </div>
+
+    </div>
+    <div class="img-div right-trans">
+      <div class="glow-ring">
+        <div class="outer-ring">
+          <a href="#about" class="rotation-lines">
+            <img class="profile-img" src="images/sai.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- aboutme page -->
+  <section class="about-me trans" id='about'>
+    <div class="abt-content left-trans">
+      <span class="abt-que">what Do I Do?</span>
+      <p>
+        I'm a full-stack developer focused on building reliable, user-centered web applications using the MERN
+        stack (MongoDB, Express, React, Node). I design thoughtful front-end experiences and pair them with
+        robust server-side APIs that scale. My work emphasizes accessibility, responsive design, and clear, testable
+        code so products stay maintainable as they grow.
+      </p>
+      <p>
+        Recent projects include a full-stack real-estate platform (React + Node + MongoDB), an LMS prototype, and a
+        data-driven marks-tracking app. I enjoy turning product requirements into working features and learning new
+        tools that improve developer productivity and user experience.
+      </p>
+      <div class="abt-quote">
+        <span>Think.</span><span>Build.</span><span>Improve.</span>
+      </div>
+    </div>
+    <div class=" abt-icons right-trans">
+      <img src="images/nodejsicon.svg" class="nodeicon" alt="">
+      <img class="mongoicon" src="images/mongodb.png" alt="">
+      <img class="reacticon" src="images/react.svg" alt="">
+      <img class="jsicon" src="images/javascript-logo.svg" alt="">
+      <img class="expicon" src="images/express.png" alt="">
+      <img class="giticon" src="images/gitbash.svg" alt="">
+      <img class="btsrpicon" src="images/bootstrap.svg" alt="">
+      <img class="githbicon" src="images/github-desktop.svg" alt="">
+      <img class="taiwicon" src="images/tailwind-css.svg" alt="">
+      <img class="nextjs" src="images/nextjs.jpeg" alt="">
+      <img class="typescripticon" src="images/typrscriptlogo.png" alt="">
+    </div>
+
+  </section>
+  <!-- projects -->
+  <section class="project-line trans" id="projects1">
+    <div class="project-content left-trans">
+      <p>Lets walk and talk!</p>
+      <h1>Projects i <span>built.</span></h1>
+
+    </div>
+    <div class="project-box right-trans">
+      <p>Lets walk and talk!</p>
+
+      <div class="box box-1">
+        Built a dynamic full-stack application with React for the UI and Node.js/Express for efficient server-side
+        handling and APIs.
+      </div>
+      <div class="box box-2">
+        Integrated MongoDB for real-time data handling, supporting dynamic user profiles and content management.
+      </div>
+      <div class="box box-3">
+        Used Tailwind CSS and Bootstrap to craft a responsive, mobile-friendly interface that adapts seamlessly across
+        all devices.
+      </div>
+      <div class="box box-4">
+        Utilized Git and GitHub for version control to manage updates, track changes, and streamline collaboration in
+        team environments.
+      </div>
+    </div>
+  </section>
+  <section class="projects" id="projects">
+    <div class="projects-grid">
+      <article class="project-card">
+        <a href="https://github.com/Sankar-1110/RealHome" target="_blank" rel="noopener noreferrer">
+          <img src="images/Realhome.png" alt="RealHome Project">
+          <div class="project-overlay">
+            <h3>RealHome</h3>
+            <p>Full-stack real estate app — React, Node, Mongo</p>
+          </div>
+        </a>
+      </article>
+      <article class="project-card">
+        <a href="https://github.com/Sankar-1110/LMS-repo" target="_blank" rel="noopener noreferrer">
+          <img src="images/lms_img.png" alt="LMS Project">
+          <div class="project-overlay">
+            <h3>LMS Project</h3>
+            <p>Full-stack Learning Management System App — React, NodeJs, MongoDB</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="project-card">
+        <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+          <img src="images/portfolio.png" alt="Portfolio Project">
+          <div class="project-overlay">
+            <h3>Portfolio</h3>
+            <p>Personal portfolio site with responsive layout and animations</p>
+          </div>
+        </a>
+      </article>
+
+
+      <article class="project-card">
+        <a href="https://github.com/Sankar-1110/my-gemini" target="_blank" rel="noopener noreferrer">
+          <img src="images/gemini.png" alt="Gemini Project">
+          <div class="project-overlay">
+            <h3>My Gemini</h3>
+            <p>Experimental UI and animations demo</p>
+          </div>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact-me trans" id='contact'>
+
+
+    <form class="left-trans" action="https://api.web3forms.com/submit" method="POST">
+      <p style="font-size: xx-large;font-weight: 700;">Contact <span style="color: red;">Me!</span></p>
+      <div class="contact-content">
+        <input type="hidden" name="access_key" value="7bbdce2a-af75-4709-b60b-dc4b3151b553">
+
+        <input name="name" placeholder="Full name" type="text">
+        <input name="email" placeholder="Email address" type="text">
+      </div>
+      <textarea name="message" type="" placeholder="Your message"></textarea>
+      <input class="btn--formsubmit" type="submit" value="Submit">
+    </form>
+
+  </section>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
